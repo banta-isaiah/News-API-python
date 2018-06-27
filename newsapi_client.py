@@ -1,8 +1,26 @@
+import os
 import requests
 
+NEWS_API_KEY = os.environ.get('NEWS_API_KEY', None)
 
-class client():
-    def __init__():
+class NewsAPI:
+
+    base_url = 'https://newsapi.org/v2/' 
+
+    def get_top_headlines(self):
+        pass
+
+
+    def get_everything(self):
+        pass
+
+    
+    def get_sources(self):
+        pass
+
+
+
+        
 
     
 
